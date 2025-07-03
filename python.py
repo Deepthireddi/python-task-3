@@ -32,8 +32,8 @@ print("global:", x)
 outer: outer  
 global: global
 #why beacuse, First outside x = "global"
-Inside outer()  again x = "outer"
-Inside inner()  again x = "inner"  In inner() you wrote x = "inner" but never printed, so nothing happens from there.
-Then print("outer:", x) runs, x is "outer" inside outer(), so prints that.
-Finally, outside print("global:", x) runs, x outside is still "global", so prints that.
+#Inside outer()  again x = "outer"
+#Inside inner()  again x = "inner"  In inner() you wrote x = "inner" but never printed, so nothing happens from there.
+#Then print("outer:", x) runs, x is "outer" inside outer(), so prints that.
+#Finally, outside print("global:", x) runs, x outside is still "global", so prints that.
  
